@@ -1,0 +1,58 @@
+
+.contenidor
+{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.imatge
+{
+	width: 60%;
+	height: 600px;
+}
+
+.textcentrat
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.imatge2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 60px;
+}
+
+.imatge3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 60px;
+}
+
+.listaguion li{list-style-type: none}
+.listaguion li:before{content: "-"}
+
+.listaguion2 li{list-style-type: none}
+
+
